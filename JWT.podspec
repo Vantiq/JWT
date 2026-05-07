@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'JWT'
-  s.version      = '2.2.0.2'
+  s.version      = '2.2.0.3'
   s.summary      = 'A JSON Web Token implementation in Objective-C.'
   s.homepage     = 'https://github.com/yourkarma/jwt'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   #s.osx.exclude_files = 'JWT/**/*JWTAlgorithmRS*.{h,m}'
   s.requires_arc = true
   s.framework    = 'Security'
-  s.dependency 'Base64', '~> 1.2.1'
+  s.dependency 'Base64', '1.2.1.2'
 end
