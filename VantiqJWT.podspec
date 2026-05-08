@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'VantiqJWT'
-  s.version      = '2.2.0.4'
+  s.version      = '2.2.0.5'
   s.summary      = 'Vantiq fork of JWT'
   s.homepage     = 'https://github.com/Vantiq/JWT'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
